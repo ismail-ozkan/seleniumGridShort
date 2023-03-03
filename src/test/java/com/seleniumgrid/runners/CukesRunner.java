@@ -33,7 +33,7 @@ and then map those scenarios to code that performs the actual testing.
         features = "src/test/resources/features",
         glue = "com/seleniumgrid/step_definitions",
         dryRun = false,
-        tags = "@google",//@Regression and not @student
+        tags = "",//@Regression and not @student
         publish = true
 )
 public class CukesRunner {
